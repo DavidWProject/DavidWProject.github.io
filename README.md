@@ -1,1 +1,33 @@
-# DavidWProject.github.io
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> David Wong's Bio </title>
+  <link rel="stylesheet" rel="stylesheet" href="assets/css/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">David Wong</a>
+  
+  <div class="topnav-right">
+    <a href="#search">About</a>  
+    <a href="#about">Portforlio</a> 
+    <a href="#contact">Contact</a> 
+  </div>
+</div>
+
+<br>
+
+<div class="bio">
+  <h1>About Me</h1>
+
+  <p><br><img src="assets/images/profile-img.png" alt="David Wong" class="profileimg">Upcoming graduate of Columbia Full Flex BootCamp, David Wong is determined to use his new found knowledge to grow in the tech industry. With skills aquired through Columbia University, David is one step closer to his dream of becoming a tech genius who will shape the future. </p>
+</div>
+
+  <footer>
+    <small>Copyright&copy;</small>
+  </footer>
+</body>
+</html>
