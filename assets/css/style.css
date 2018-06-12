@@ -26,7 +26,7 @@ body {
 .topnav a.active {
   background-color: #4aaaa5;
   color: white;
-  margin-left: 100px; 
+  margin-left: 15%; 
   font-size: 24px; 
 }
 
@@ -65,6 +65,10 @@ body {
   font-size: 30px; 
 }
 
+.profile a {
+  border-bottom: 3px solid black;
+}
+
 .profileimg {
   float:left; 
   max-width: 240px; 
@@ -72,16 +76,16 @@ body {
   padding-right: 20px; 
 }
 footer {
-    position: fixed; 
-    text-align: center; 
-    width: 100%; 
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    background-color: #666666; 
-    border-top: 10px solid #4aaaa5;
-    left: 0; 
-    bottom: 0; 
-    color: white; 
+  position: fixed; 
+  text-align: center; 
+  width: 100%; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  background-color: #666666; 
+  border-top: 10px solid #4aaaa5;
+  left: 0; 
+  bottom: 0; 
+  color: white; 
 }
 
 html {
