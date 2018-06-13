@@ -20,10 +20,30 @@
 
 <br>
 
-<div class="bio">
-  <h1>About Me</h1>
+<div class="about-me">
+  <h1>Contact Me</h1>
+<br> 
+  
+  <form action="/action_page.php">
+        <label for="fname"=>Name</label>
+        <input type="text" id="full-name" name="full-name" placeholder="John Smith">
 
-  <p><br><img src="assets/images/profile-img.png" alt="David Wong" class="profileimg">Upcoming graduate of Columbia Full Flex BootCamp, David Wong is determined to use his new found knowledge to grow in the tech industry. With skills aquired through Columbia University, David is one step closer to his dream of becoming a tech genius who will shape the future. </p>
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+        <label for="inquiry">Type of Inquiry</label>
+        <select id="inquiry" name="inqury">
+            <option value="job-inquiries">Job Inquiries</option>
+            <option value="business-inquiries">Business Inquiries</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+  
+    </form>
 </div>
 
   <footer>
