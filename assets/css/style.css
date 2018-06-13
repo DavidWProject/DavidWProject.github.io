@@ -44,6 +44,7 @@ body {
   margin-left: 100px; 
   max-width: 960px;
   margin: auto;
+  overflow: scroll;
 }
 
 .bio p {
