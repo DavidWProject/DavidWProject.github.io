@@ -57,7 +57,7 @@ body {
     color: #4aaaa5;
     font-size: 30px; 
     text-indent: -50px; 
-    border-bottom: 4px solid #4aaaa5; 
+    border-bottom: 4px solid #777777; 
 }
 
 input[type=text], select, textarea {
