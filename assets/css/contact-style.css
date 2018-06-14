@@ -55,6 +55,7 @@ nav a:hover {
     line-height: 1.5; 
     overflow: auto; 
     padding: 20px; 
+
 }
   
 .about-me h1 {
@@ -64,6 +65,7 @@ nav a:hover {
     color: #4aaaa5;
     font-size: 30px; 
     border-bottom: 4px solid #777777; 
+    text-indent: -50px; 
 }
 
 input[type=text], select, textarea {
@@ -81,7 +83,7 @@ input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: none; 
     border-radius: 4px;
     cursor: pointer;
 }
