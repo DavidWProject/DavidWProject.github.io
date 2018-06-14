@@ -49,6 +49,7 @@ nav a:hover {
   margin: auto; 
   background-color: white; 
   margin-top: 50px;  
+  margin-bottom: 200px; 
 }
 
 .container h1 {
@@ -65,7 +66,8 @@ nav a:hover {
   width: 41.5%;
   padding: 15px 40px 15px 40px;
   position: relative; 
-  margin-bottom: 60px; 
+  margin-top: 20px;
+  margin-bottom: 20px;  
 }
 
 .row::after {
