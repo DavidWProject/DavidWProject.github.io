@@ -54,7 +54,7 @@ nav a:hover {
 .container h1 {
   background-color: white; 
   margin-bottom: 0; 
-  padding: 25px 50px 25px 50px;
+  padding: 15px 50px 15px 50px;
   color: #4aaaa5;
   font-size: 30px; 
   border-bottom: 4px solid #dddddd;
@@ -63,7 +63,7 @@ nav a:hover {
 .column {
   float: left;
   width: 40%;
-  padding: 20px 50px 20px 40px;
+  padding: 15px 50px 15px 50px;
   position: relative; 
   margin-bottom: 60px; 
 }

@@ -50,12 +50,11 @@ nav a:hover {
     margin: auto;
     color: #777777;
     background-color: white; 
-    margin-top: 40px; 
+    margin-top: 34px; 
     margin-bottom: 50px; 
     line-height: 1.5; 
     overflow: auto; 
-    padding: 20px; 
-
+    padding: 0px 20px 20px 20px; 
 }
   
 .about-me h1 {
@@ -64,7 +63,7 @@ nav a:hover {
     padding: 15px 50px 15px 50px;
     color: #4aaaa5;
     font-size: 30px; 
-    border-bottom: 4px solid #777777; 
+    border-bottom: 4px solid #dddddd; 
     text-indent: -50px; 
 }
 
