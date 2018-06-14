@@ -26,7 +26,7 @@ nav{
   background-color: #4aaaa5;
   color: #ffffff;
   float: left;
-  padding: 25px;
+  padding: 20px;
   font-size: 24px; 
   text-decoration: none; 
 }
@@ -84,7 +84,7 @@ nav a:hover {
   padding-right: 20px; 
 }
 footer {
-  position: fixed; 
+  position: absolute; 
   text-align: center; 
   width: 100%; 
   padding-top: 10px; 
