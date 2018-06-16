@@ -60,11 +60,11 @@ nav a:hover {
 .about-me h1 {
     background-color: white; 
     margin-bottom: 0; 
-    padding: 15px 50px 15px 50px;
+    padding: 10px 50px 10px 20px;
     color: #4aaaa5;
-    font-size: 30px; 
+    font-size: 24px; 
     border-bottom: 4px solid #dddddd; 
-    text-indent: -50px; 
+    text-indent: -20px;
 }
 
 input[type=text], select, textarea {
