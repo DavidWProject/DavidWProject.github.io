@@ -165,4 +165,8 @@ html {
     .about-me {
         width: 660px; 
     }
+
+    html {
+        zoom: 100%;
+    }
   }

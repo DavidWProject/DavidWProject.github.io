@@ -148,7 +148,7 @@ html {
 @media screen and (max-width: 640px) {
   header {
     overflow: hidden;
-    width: 640px; 
+    width: 100%; 
   }
 
   #name {  
@@ -161,6 +161,10 @@ html {
 
   .topnav-right a {
     padding: 10px 100px 10px 10px;
+    font-size: 12px;
   }
 
+  html {
+    zoom: 100%;
+  }
 }

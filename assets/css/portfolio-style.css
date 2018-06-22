@@ -226,6 +226,10 @@ html {
     width: 900px;
   }
 
+  .topnav-right {
+    margin-right: 150px; 
+  }
+
   .container {
     max-width: 680px; 
     height: 900px;
@@ -286,11 +290,15 @@ html {
   }
 
   .topnav-right a {
-    padding-right: 60px;
-    padding-left: 40px; 
+    padding-right: 0px;
+    padding-left: 60px; 
     margin-left: 60px;
-    margin-right: 20px; 
+    margin-right: 0px; 
     font-size: 12px; 
+  }
+
+  html {
+    zoom: 100%;
   }
 
 }
