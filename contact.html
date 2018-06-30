@@ -1,56 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> David Wong's Portfolio Page </title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
-  <link rel="stylesheet" type="text/css" href="assets/css/contact-style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>David Wong's Portfolio Page</title>
+
 </head>
+
 <body>
 
-  <header>
-      <div id="navbar">
-          <a id="name" href="https://www.linkedin.com/in/davidwongprofile/">David Wong</a>
-          <nav class="right-navbar">
-              <div class="topnav-right">
-                  <a href="https://davidwproject.github.io/" id="about">About</a> 
-                  <a href="portfolio.html" id="portfolio">Portfolio</a> 
-                  <a href="contact.html" id="contact">Contact</a> 
-              </div>
-          </nav>
-      </div>
-  </header>
+    <div class="container-fluid">
+        <div class="row row1">
+            <div class="col-lg-8 justify-content-between">
+                <div class="nav nav-pills">
+                    <a class="bg-info text-white d-flex justify-content-around white-space: nowrap" href="#">David Wong</a>
+                </div>
+            </div>
 
-<br>
+            <div class="col-lg-4 justify-content-center">
+                <ul class="nav d-flex justify-content-around">
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="index.html">About</a> 
+                    </li> 
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-<div class="about-me">
-  <h1>Contact Me</h1>
-<br> 
-  
-  <form action="">
-        <label for="fname"=>Name</label>
-        <input type="text" id="full-name" name="full-name" placeholder="John Smith">
+        </div>
 
-        <label for="lname">Email</label>
-        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+        <div class="row row2">
+            <div class="col-lg-12 mt-3 px-4">
+            </div>
+        </div>
 
-        <label for="inquiry">Type of Inquiry</label>
-        <select id="inquiry" name="inqury">
-            <option value="job-inquiries">Job Inquiries</option>
-            <option value="business-inquiries">Business Inquiries</option>
-            <option value="other">Other</option>
-        </select>
+        <div class="row row3">
+            <div class="col-lg-8">
+                <div class="jumbotron ml-4 mr-4 mt-1 mb-10 pt-3 pb-3 pl-5 pr-5">
+                    <form>
+                        <h3>Contact Me</h3>
+                        <p></p>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Full Name</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Email</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput3">Type of Inquiry</label>
+                            <select class="form-control form-control-sm">
+                                <option>Select Type Of Inquiry</option>
+                                <option value="1">Job Inquiries</option>
+                                <option value="2">Business Inquiries</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something.."></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-10">
+                <div class="row card ml-4 mr-4 mt-1">
+                    <div class="col-sm-12 mt-3 mb-3">
+                        <h6>Connect with me via:</h6>
+                    </div>
+                </div>
+                <div class="row card ml-4 mr-4 pt-1 pb-1">
+                    <div class="col-sm-12">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="https://www.linkedin.com/in/davidwongprofile" title="linkedin" class="btn btn-linkedin btn-lg"><i class="fab fa-linkedin-in"></i>
+                        <a href="http://www.github.com/DavidWProject" title="Github" class="btn btn-github btn-lg"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/DavidWong123" title="Facebook" class="btn btn-facebook btn-lg"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        <div class="footer">
+            <div class="row row4">
+                <div class="col-sm-12">
+                    <small>Copyright&copy; 2018 David Wong</small>
+                </div>
+            </div>
+        </div>
 
-        <input type="submit" value="Submit">
-  
-    </form>
-</div>
+    </div>
 
-  <footer>
-    <small>Copyright&copy; 2018 David Wong</small>
-  </footer>
 </body>
+
 </html>

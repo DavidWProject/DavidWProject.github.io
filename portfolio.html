@@ -1,70 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> David Wong's Portfolio Page </title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio-style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>David Wong's Portfolio Page</title>
+
 </head>
+
 <body>
 
-    <header>
-        <div id="navbar">
-            <a id="name" href="https://www.linkedin.com/in/davidwongprofile/">David Wong</a>
-                <nav class="topnav-right">
-                <a href="https://davidwproject.github.io/" id="about">About</a> 
-                <a href="portfolio.html" id="portfolio">Portfolio</a> 
-                <a href="contact.html" id="contact">Contact</a> 
-            </nav>
+    <div class="container-fluid">
+        <div class="row row1">
+            <div class="col-lg-8 justify-content-between">
+                <div class="nav nav-pills">
+                    <a class="bg-info text-white d-flex justify-content-around white-space: nowrap" href="#">David Wong</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 justify-content-center">
+                <ul class="nav d-flex justify-content-around">
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="index.html">About</a> 
+                    </li> 
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link disabled" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-    </header>
 
-    <div class="container">
+        <div class="row row2">
+            <div class="col-lg-12 mt-3 px-4">
+            </div>
+        </div>
 
-        <h1>Portfolio</h1>
-
-        <div class="row1">
-            <div class="column1">
-                <a href="https://scratch.mit.edu/projects/223255082/">
-                    <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Mice Invaders" style="width:100%">
-                    <div class="text-block"> 
-                        <h4>Mice Invaders</h4>
+        <div class="row row3">
+            <div class="col-lg-8">
+                <div class="jumbotron ml-4 mr-4 mt-1 mb-10 pt-3 pb-3 pl-5 pr-5">
+                    <h3>Portfolio</h3>
+                    
+                    <p></p>
+                    <div class="row row6">
+                        <div class="col-lg-6">
+                            <a href="https://davidwproject.github.io/Word-Guess-Game/">
+                                <img src="assets/images/doctor-office.jpg" alt="Word Guessing Game" class="mice-invaders">
+                                <div class="text-block pr-6"> 
+                                    <h5>Guessing Game</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="#">
+                                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG game" class="rpg-game">
+                                <div class="text-block"> 
+                                    <h5>RPG Game</h5>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </a>
+                    <div class="row row7">
+                        <div class="col-lg-6">
+                            <a href="#">
+                                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trival Games" class="trival-games">
+                                <div class="text-block"> 
+                                    <h5>Trival Games</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="#">
+                                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Info Widget" class="info-widget">
+                                <div class="text-block"> 
+                                    <h5>Info Widget</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row8">
+                        <div class="col-lg-6">
+                            <a href="#">
+                                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Papper Scissor" class="r-p-s">
+                                <div class="text-block"> 
+                                    <h5>Rock Papper Scissor</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="column2">
-                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" style="width:100%">
-                <div class="text-block-1"> 
-                    <h4>RPG Game</h4>
+            <div class="col-lg-4 mb-10">
+                <div class="row card ml-4 mr-4 mt-1">
+                    <div class="col-sm-12 mt-3 mb-3">
+                        <h6>Connect with me via:</h6>
+                    </div>
+                </div>
+                <div class="row card ml-4 mr-4 pt-1 pb-1">
+                    <div class="col-sm-12">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="https://www.linkedin.com/in/davidwongprofile" title="linkedin" class="btn btn-linkedin btn-lg"><i class="fab fa-linkedin-in"></i>
+                        <a href="http://www.github.com/DavidWProject" title="Github" class="btn btn-github btn-lg"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/DavidWong123" title="Facebook" class="btn btn-facebook btn-lg"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row2">
-            <div class="column1">
-                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trival Games" style="width:100%">
-                <div class="text-block-2"> 
-                    <h4>Trival Games</h4>
-                </div>
-            </div>
-            <div class="column2">
-                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Info Widgit" style="width:100%">
-                <div class="text-block-3"> 
-                    <h4>Info Widget</h4>
+
+        <div class="footer">
+            <div class="row row4">
+                <div class="col-sm-12">
+                    <small>Copyright&copy; 2018 David Wong</small>
                 </div>
             </div>
         </div>
-        <div class="row3">
-            <div class="column1">
-                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissor" style="width:100%">
-                <div class="text-block-4"> 
-                    <h4>Rock Paper Scissor</h4>
-                </div>
-            </div>
-        </div>
+
     </div>
 
-    <footer>
-        <small>Copyright&copy; 2018 David Wong</small>
-    </footer>
 </body>
+
 </html>
