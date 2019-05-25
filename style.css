@@ -62,8 +62,7 @@ html {
 }
 
 .w2-content {
-    max-width: 1440px !important;
-    align: center;
+    max-width: 100% !important;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
