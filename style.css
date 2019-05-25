@@ -62,7 +62,7 @@ html {
 }
 
 .w2-content {
-    max-width: 100% !important;
+    /* max-width: 100% !important; */
 }
 
 /* Turn off parallax scrolling for tablets and phones */
