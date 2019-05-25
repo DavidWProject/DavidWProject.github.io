@@ -63,6 +63,7 @@ html {
 
 .w2-content {
     max-width: 1440px !important;
+    align: center;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
